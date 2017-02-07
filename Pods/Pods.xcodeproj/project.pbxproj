@@ -1,0 +1,1187 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02D5DBBBE9F6DB761CEF4CF6E7BF5854 /* HeroDebugPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9082D13D5ABE1F4C274ACCE63C76A4D4 /* HeroDebugPlugin.swift */; };
+		0CF58786C1EBE018AB6471F206E268D7 /* Pods-MeChat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E48E054E765171D37C6C70083BC679F /* Pods-MeChat-dummy.m */; };
+		0F76B5E4CA3399C41E9C74ED3D95AA0C /* Hero-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7816D1A47196EB429E7C30E924807299 /* Hero-dummy.m */; };
+		11FA32BAD527295B3ECA9BEAED205663 /* ElasticTransition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E32E3B41DA3161CE0FD2EA767F60CEC /* ElasticTransition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D90392F0CEAA5A7645962C5203ED0FF /* DispatchQueue+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E681144FED6B28B20C7EFCA92F335D /* DispatchQueue+Hero.swift */; };
+		1ED965D105C9D5311BE6221B9EEDD724 /* CascadePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD02DFF8C6EC3E3EF952E501A0E4EA27 /* CascadePreprocessor.swift */; };
+		2AE053B117E2F7EE1CA1EBF31C2AD4D0 /* ElasticTransitionPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3BF1448800F76B641B44503A3A3CAE /* ElasticTransitionPresentationController.swift */; };
+		2B973B230C4DDB3D980EA1BFBDD1F9CA /* HeroDebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CB0B2B04515CAAEEC5142B3F42AFDE /* HeroDebugView.swift */; };
+		2BA45B36223B0144ED43AE3E93E02516 /* HeroContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D4D24D1AB29AB211264CC49DF73C91 /* HeroContext.swift */; };
+		3104F922E2AEA786002E8702F69EE3CC /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907EDAFE8BBA3EAC0B7DA7B9EC229523 /* Util.swift */; };
+		440DE97A18C6DDCB2ACCF4FC47DDC758 /* UIKit+HeroModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828F235F14D76DA6A3BD7179A8A782EB /* UIKit+HeroModifier.swift */; };
+		4BEFCE140F40EDFA980E3522E8751F2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 289FEAEC20F1013C920D714E987C2F09 /* Foundation.framework */; };
+		4E7025EF5A4EAAFDC64E8627AE0C668A /* HeroTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F1020FAFDDA6730BE2CE89D8411C27 /* HeroTypes.swift */; };
+		4FB9C59A3B8E8E44597D32E2E3F5907C /* HeroDefaultAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41648D501393C85A7F2CC29CD4556352 /* HeroDefaultAnimator.swift */; };
+		50313A5D2C8EA12E0BB5FD78E3081770 /* ClearPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E6F850F8EC307D56E6C0E522DF123A /* ClearPreprocessor.swift */; };
+		58EB3314115C164F77FD219A25C69889 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4692BB0A2F2236E6AEB1C54DF65A98B6 /* Hero.swift */; };
+		59DC13756163BE917B467F0575DF1AEF /* NSObject+MotionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAE82936A2CC1560ACBFFCE8C808A97 /* NSObject+MotionAnimation.swift */; };
+		5A43FF1B9F3FB0F92492A9BEF7D9DF95 /* CAMediaTimingFunction+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417374852D75806435C981AFB7AF3C44 /* CAMediaTimingFunction+Hero.swift */; };
+		609FC27A791C058F8CD308288D573E68 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92BD4B77D338F1AB7D17B689FB91DB30 /* UIKit.framework */; };
+		62CCA458C69D8ABEAFAAAB2C94553297 /* MotionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C72AA25441CBF5B608C8D1ADB2D8324 /* MotionAnimation.swift */; };
+		64C375CBD1009889ACB563839209F15E /* ValueAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC81CAE65ADC330097ABE6F8388328E /* ValueAnimation.swift */; };
+		6C8683CA2793A7BBF60DE15AE71C26A6 /* ElasticShapeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6920BBDE2B15CEB73D3E4A47EC7589FB /* ElasticShapeLayer.swift */; };
+		7F0FC6AE7D69ACE944D27DE1D8889B45 /* MotionAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD88FD1084E232BF84B650ECE6F1E750 /* MotionAnimation-dummy.m */; };
+		8CE97726B9EE2795CD5499A307C45D4F /* MotionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941CF5EF60FD2344B07B1ACB31FA7ACC /* MotionAnimator.swift */; };
+		9F44930AC64103BA578ECE195AEC93ED /* ViewToViewPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC01D78F81EE3D71C5D03D79AE7E6EDE /* ViewToViewPreprocessor.swift */; };
+		A513C7415A9FA5411AEADDE4D8C2120B /* TrackSubviewPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049952443031AF1757286D4CC332DCB4 /* TrackSubviewPreprocessor.swift */; };
+		A78BF079B3B0A2777DC93E64522C9DE0 /* SpringValueAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71659ED316D686E17D76F40DD517B7CF /* SpringValueAnimation.swift */; };
+		A934E546F60C36EA0AE880CCA9B5716C /* ElasticModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8473DABB0C8FD64BF7CD3A34078CA5B4 /* ElasticModalViewController.swift */; };
+		AB63585C7DA68FF76D9E43557A80799C /* ElasticTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 658F59F8CE52C5C32197475CD027DEC1 /* ElasticTransition-dummy.m */; };
+		B511623060DBCD6B1C14F5D252143937 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 289FEAEC20F1013C920D714E987C2F09 /* Foundation.framework */; };
+		D65B3B3571A6E546C3AA272FB0A994B8 /* SourceIDPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF948BBFF27BF1A8AAB2ADD418FAC72 /* SourceIDPreprocessor.swift */; };
+		D79FF9DDC85C3B99CDE883D8B3870603 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 289FEAEC20F1013C920D714E987C2F09 /* Foundation.framework */; };
+		D80F5231362400AA818604F8A1BDB58C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 289FEAEC20F1013C920D714E987C2F09 /* Foundation.framework */; };
+		DB89E3B575B99E86F2806BC6B905233A /* ElasticTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40AD7F401F9ED8BFDFF3DA6FA8B0BE9 /* ElasticTransition.swift */; };
+		DFC2593A02F3D7A4828F9EF441F0E042 /* MotionAnimationPropertyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539DBCA7BF298954D18DBB6776B8D97F /* MotionAnimationPropertyState.swift */; };
+		E13B675F8043A01BAA2C146E604A9866 /* Hero-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81821546FAC4822A5632D55ABF6E2043 /* Hero-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5106DA074C2E5F808B208EDEF77F901 /* HeroPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C05784F87CE21D16467852CE415A9D /* HeroPlugin.swift */; };
+		E99F5C75FC20F14262106DE242CFA957 /* UIKit+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A60A5D681F9D9A4E9352F9DAE933D4 /* UIKit+Hero.swift */; };
+		E9E08E1A04267DD608FFA72610369C07 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131FCA1074156373F10A065BA95524EB /* Types.swift */; };
+		EB8835AEC429B2708D3E9A954E015FF4 /* EdgePanTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E55041B57C1467E47E75C75F4260236 /* EdgePanTransition.swift */; };
+		EDA026129165CD6BCE1312AA7FAF0BB7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92BD4B77D338F1AB7D17B689FB91DB30 /* UIKit.framework */; };
+		EE2DFB2AC797F70E036096BD817BF85A /* Pods-MeChat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B4B5304DA33B196836435AFC535C4E6 /* Pods-MeChat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F033ADF6B1BF55DDD7E529505A8C44C8 /* MotionAnimation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E7BF809DAE7123CA308504073E4AED1 /* MotionAnimation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5218E444980FAEAA6D342454D324646 /* MotionAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32399A8D44DBED056F34A76533E4645 /* MotionAnimation.framework */; };
+		FA237B271BC312EAF7B399AC7024B589 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92BD4B77D338F1AB7D17B689FB91DB30 /* UIKit.framework */; };
+		FACEC31B2B047593B87EFA3C608880B5 /* CG+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = E997C87EE322A5E6ED6C489E6DDC71D7 /* CG+Hero.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C5792348DC7DAD78ED93553B72E7C69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7252E38DA845CCD622CF025C2DBF326;
+			remoteInfo = Hero;
+		};
+		3448A019BE34ED3B2B313A1897E49392 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 349C7332321D4913AA51D6D1AD4E81EA;
+			remoteInfo = MotionAnimation;
+		};
+		AA0A76D5DA6DE51D4049C2687A2155D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED347253791613F820AB764013457A24;
+			remoteInfo = ElasticTransition;
+		};
+		C1A15CA49C240FBB883E7D94F5880C19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 349C7332321D4913AA51D6D1AD4E81EA;
+			remoteInfo = MotionAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		049952443031AF1757286D4CC332DCB4 /* TrackSubviewPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrackSubviewPreprocessor.swift; path = Hero/TrackSubviewPreprocessor.swift; sourceTree = "<group>"; };
+		09CBCD803C6471C8BA7A6AD47D6B3C71 /* NIMTeam.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMTeam.h; path = SDK/NIMSDK/ExportHeaders/Team/NIMTeam.h; sourceTree = "<group>"; };
+		0C71125B45E9205B8F795CD97887BB3D /* NIMChatroomNotificationContent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMChatroomNotificationContent.h; path = SDK/NIMSDK/ExportHeaders/MessageObject/NotificationContent/NIMChatroomNotificationContent.h; sourceTree = "<group>"; };
+		0E48E054E765171D37C6C70083BC679F /* Pods-MeChat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MeChat-dummy.m"; sourceTree = "<group>"; };
+		0E7BF809DAE7123CA308504073E4AED1 /* MotionAnimation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MotionAnimation-umbrella.h"; sourceTree = "<group>"; };
+		0EC719BE79472BF18BCCAA82725971E0 /* NIMRTSConference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMRTSConference.h; path = SDK/NIMAVChat/ExportHeaders/NIMRTSConference.h; sourceTree = "<group>"; };
+		11605803D6FC17ABBB07D6710927FDE0 /* MotionAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MotionAnimation.modulemap; sourceTree = "<group>"; };
+		12B9BCDE640591D31AFA9274984436AA /* NIMRevokeMessageNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMRevokeMessageNotification.h; path = SDK/NIMSDK/ExportHeaders/NIMRevokeMessageNotification.h; sourceTree = "<group>"; };
+		131FCA1074156373F10A065BA95524EB /* Types.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Types.swift; path = MotionAnimation/Types.swift; sourceTree = "<group>"; };
+		1321F272318696EFEB16B67051ADDFF0 /* NIMChatroomUpdateRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMChatroomUpdateRequest.h; path = SDK/NIMSDK/ExportHeaders/Chatroom/NIMChatroomUpdateRequest.h; sourceTree = "<group>"; };
+		158EF7938137378289E1EA4EAE774F63 /* NIMConversationManagerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMConversationManagerProtocol.h; path = SDK/NIMSDK/ExportHeaders/Protocol/NIMConversationManagerProtocol.h; sourceTree = "<group>"; };
+		15CB0B2B04515CAAEEC5142B3F42AFDE /* HeroDebugView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDebugView.swift; path = Hero/HeroDebugView.swift; sourceTree = "<group>"; };
+		16A60A5D681F9D9A4E9352F9DAE933D4 /* UIKit+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIKit+Hero.swift"; path = "Hero/UIKit+Hero.swift"; sourceTree = "<group>"; };
+		191392CA0C221248E6C914266FD65338 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19B2A452324DDF8BF4B61139CB5FE924 /* libNIMAVChat.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libNIMAVChat.a; path = SDK/NIMAVChat/libNIMAVChat.a; sourceTree = "<group>"; };
+		1CD4A9CC7F0F484837FB1B4BCD9847CB /* NIMAVChatNetDetectResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMAVChatNetDetectResult.h; path = SDK/NIMAVChat/ExportHeaders/NIMAVChatNetDetectResult.h; sourceTree = "<group>"; };
+		240B4EB9B4EF6C658557EAA822831BB2 /* NIMAntiSpamOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMAntiSpamOption.h; path = SDK/NIMSDK/ExportHeaders/NIMAntiSpamOption.h; sourceTree = "<group>"; };
+		26E6F850F8EC307D56E6C0E522DF123A /* ClearPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClearPreprocessor.swift; path = Hero/ClearPreprocessor.swift; sourceTree = "<group>"; };
+		27D626B14275CDCC354380044782CA75 /* NIMRTSConferenceData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMRTSConferenceData.h; path = SDK/NIMAVChat/ExportHeaders/NIMRTSConferenceData.h; sourceTree = "<group>"; };
+		289FEAEC20F1013C920D714E987C2F09 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2BF948BBFF27BF1A8AAB2ADD418FAC72 /* SourceIDPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourceIDPreprocessor.swift; path = Hero/SourceIDPreprocessor.swift; sourceTree = "<group>"; };
+		2F93A5680B3CA9FA1714D9038FED5BAD /* libopenh264.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libopenh264.a; path = SDK/NIMAVChat/Libs/libopenh264.a; sourceTree = "<group>"; };
+		3073E6F66BC358227ACBAEC6ED33496C /* Hero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Hero.framework; path = Hero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F6EF98586B09FE7F0208E72D4A18E0 /* MotionAnimation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MotionAnimation-prefix.pch"; sourceTree = "<group>"; };
+		33A76D890CCE0E2472866D180218DD77 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38107F4AF3C5B6CDE66125C15AF087D3 /* NIMPushNotificationSetting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMPushNotificationSetting.h; path = SDK/NIMSDK/ExportHeaders/NIMPushNotificationSetting.h; sourceTree = "<group>"; };
+		3831F55CE800D284EC4F2AF5CC654A57 /* libnvs.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libnvs.a; path = SDK/NIMAVChat/Libs/libnvs.a; sourceTree = "<group>"; };
+		38949D899F8E6E82C137C2A764B82B4A /* NIMCreateTeamOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMCreateTeamOption.h; path = SDK/NIMSDK/ExportHeaders/Team/NIMCreateTeamOption.h; sourceTree = "<group>"; };
+		3EDE4246715672D8E3BAA53684377D68 /* Pods-MeChat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MeChat.modulemap"; sourceTree = "<group>"; };
+		3FABAC56A9DB3F852492BEC329C2AF47 /* NIMNotificationContent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMNotificationContent.h; path = SDK/NIMSDK/ExportHeaders/MessageObject/NotificationContent/NIMNotificationContent.h; sourceTree = "<group>"; };
+		3FDE5E39643B46816FF224428275AFD8 /* NIMApnsManagerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMApnsManagerProtocol.h; path = SDK/NIMSDK/ExportHeaders/Protocol/NIMApnsManagerProtocol.h; sourceTree = "<group>"; };
+		41648D501393C85A7F2CC29CD4556352 /* HeroDefaultAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDefaultAnimator.swift; path = Hero/HeroDefaultAnimator.swift; sourceTree = "<group>"; };
+		417374852D75806435C981AFB7AF3C44 /* CAMediaTimingFunction+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CAMediaTimingFunction+Hero.swift"; path = "Hero/CAMediaTimingFunction+Hero.swift"; sourceTree = "<group>"; };
+		44131C7BDB5C326A4206818562BB72F8 /* NIMAVChatDefs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMAVChatDefs.h; path = SDK/NIMAVChat/ExportHeaders/NIMAVChatDefs.h; sourceTree = "<group>"; };
+		4692BB0A2F2236E6AEB1C54DF65A98B6 /* Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Hero.swift; path = Hero/Hero.swift; sourceTree = "<group>"; };
+		48CDE8C82111A8061455C9788E955B6D /* NIMLocationObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMLocationObject.h; path = SDK/NIMSDK/ExportHeaders/MessageObject/NIMLocationObject.h; sourceTree = "<group>"; };
+		4B4B5304DA33B196836435AFC535C4E6 /* Pods-MeChat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MeChat-umbrella.h"; sourceTree = "<group>"; };
+		4B675E55E5D4443729A210183CFEAD44 /* NIMSystemNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMSystemNotification.h; path = SDK/NIMSDK/ExportHeaders/NIMSystemNotification.h; sourceTree = "<group>"; };
+		4B74F11B732AC434AB4D8C593D26AA92 /* Pods-MeChat-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MeChat-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4C72AA25441CBF5B608C8D1ADB2D8324 /* MotionAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionAnimation.swift; path = MotionAnimation/MotionAnimation.swift; sourceTree = "<group>"; };
+		4CAE82936A2CC1560ACBFFCE8C808A97 /* NSObject+MotionAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+MotionAnimation.swift"; path = "MotionAnimation/NSObject+MotionAnimation.swift"; sourceTree = "<group>"; };
+		4E2F45F9C8CDDABAF010BE0C20551145 /* NIMTeamMember.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMTeamMember.h; path = SDK/NIMSDK/ExportHeaders/Team/NIMTeamMember.h; sourceTree = "<group>"; };
+		4E32E3B41DA3161CE0FD2EA767F60CEC /* ElasticTransition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ElasticTransition-umbrella.h"; sourceTree = "<group>"; };
+		5108CCC379AC3AC620C6BDA9FE7A5D4B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51511BF52A7D4B5E92C53953C291C9C1 /* NIMMessageApnsMemberOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMMessageApnsMemberOption.h; path = SDK/NIMSDK/ExportHeaders/NIMMessageApnsMemberOption.h; sourceTree = "<group>"; };
+		539DBCA7BF298954D18DBB6776B8D97F /* MotionAnimationPropertyState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionAnimationPropertyState.swift; path = MotionAnimation/MotionAnimationPropertyState.swift; sourceTree = "<group>"; };
+		55655AB28AAA590ECAAEBB467450FF23 /* MotionAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MotionAnimation.framework; path = MotionAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56634F77908DA10EE352336B0C45735B /* NIMMessageSearchOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMMessageSearchOption.h; path = SDK/NIMSDK/ExportHeaders/NIMMessageSearchOption.h; sourceTree = "<group>"; };
+		56A7AD7E941EAEE2E2953066BF866E03 /* Hero.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Hero.modulemap; sourceTree = "<group>"; };
+		5A538017B6C374810921D7BDFACDF09C /* libnts.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libnts.a; path = SDK/NIMAVChat/Libs/libnts.a; sourceTree = "<group>"; };
+		5AC81CAE65ADC330097ABE6F8388328E /* ValueAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValueAnimation.swift; path = MotionAnimation/ValueAnimation.swift; sourceTree = "<group>"; };
+		60382D6C8E6D4391574F86569B64CDAF /* libevent.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libevent.a; path = SDK/NIMSDK/Libs/libevent.a; sourceTree = "<group>"; };
+		6209015C2258638E262415FA044DEC47 /* NIMChatroomMember.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMChatroomMember.h; path = SDK/NIMSDK/ExportHeaders/Chatroom/NIMChatroomMember.h; sourceTree = "<group>"; };
+		658F59F8CE52C5C32197475CD027DEC1 /* ElasticTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ElasticTransition-dummy.m"; sourceTree = "<group>"; };
+		66604B2734F0CB2D191DCCADAE2A6CDA /* ElasticTransition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ElasticTransition-prefix.pch"; sourceTree = "<group>"; };
+		680ECBD1644CFFC4AA525A0C13D99ECC /* NIMNetCallMeeting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMNetCallMeeting.h; path = SDK/NIMAVChat/ExportHeaders/NIMNetCallMeeting.h; sourceTree = "<group>"; };
+		6895ACADCD7CCB0700EC0B4A800734F5 /* NIMTeamNotificationContent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMTeamNotificationContent.h; path = SDK/NIMSDK/ExportHeaders/MessageObject/NotificationContent/NIMTeamNotificationContent.h; sourceTree = "<group>"; };
+		6920BBDE2B15CEB73D3E4A47EC7589FB /* ElasticShapeLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ElasticShapeLayer.swift; path = ElasticTransition/ElasticShapeLayer.swift; sourceTree = "<group>"; };
+		6932E5805AE57D4F69DAFEE1155FF32A /* NIMChatroom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMChatroom.h; path = SDK/NIMSDK/ExportHeaders/Chatroom/NIMChatroom.h; sourceTree = "<group>"; };
+		697B0B9D1BBDE3AA47012315D340AF0E /* NIMUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMUser.h; path = SDK/NIMSDK/ExportHeaders/NIMUser.h; sourceTree = "<group>"; };
+		69ACB70CDB0F43E60F5A67185E22D978 /* NIMLoginClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMLoginClient.h; path = SDK/NIMSDK/ExportHeaders/NIMLoginClient.h; sourceTree = "<group>"; };
+		6C0AE7752BC55AC72CEAD3573A8D5820 /* NIMNetCallAudioFileMixTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMNetCallAudioFileMixTask.h; path = SDK/NIMAVChat/ExportHeaders/NIMNetCallAudioFileMixTask.h; sourceTree = "<group>"; };
+		6E025218FF4F8CC4F67DB6B8C977F289 /* NIMSDKConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMSDKConfig.h; path = SDK/NIMSDK/ExportHeaders/NIMSDKConfig.h; sourceTree = "<group>"; };
+		6E55041B57C1467E47E75C75F4260236 /* EdgePanTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EdgePanTransition.swift; path = ElasticTransition/EdgePanTransition.swift; sourceTree = "<group>"; };
+		71659ED316D686E17D76F40DD517B7CF /* SpringValueAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringValueAnimation.swift; path = MotionAnimation/SpringValueAnimation.swift; sourceTree = "<group>"; };
+		76095695B30FB44C6D0EF7CBBA5A280E /* NIMRTSManagerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMRTSManagerProtocol.h; path = SDK/NIMAVChat/ExportHeaders/NIMRTSManagerProtocol.h; sourceTree = "<group>"; };
+		7816D1A47196EB429E7C30E924807299 /* Hero-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Hero-dummy.m"; sourceTree = "<group>"; };
+		7C30CA68636AC3E31704837BE0F0EAE9 /* ElasticTransition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ElasticTransition.xcconfig; sourceTree = "<group>"; };
+		7EBCBFCDAA422334EAD17784B1AB0CE6 /* NIMMessageReceipt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMMessageReceipt.h; path = SDK/NIMSDK/ExportHeaders/NIMMessageReceipt.h; sourceTree = "<group>"; };
+		81821546FAC4822A5632D55ABF6E2043 /* Hero-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hero-umbrella.h"; sourceTree = "<group>"; };
+		828F235F14D76DA6A3BD7179A8A782EB /* UIKit+HeroModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIKit+HeroModifier.swift"; path = "Hero/UIKit+HeroModifier.swift"; sourceTree = "<group>"; };
+		831225E6D27F0B034645AC6533DE2C91 /* NIMNetCallRecordingInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMNetCallRecordingInfo.h; path = SDK/NIMAVChat/ExportHeaders/NIMNetCallRecordingInfo.h; sourceTree = "<group>"; };
+		83F7459E5A1B87D3C78E88783FCC87CE /* NIMDocTranscodingInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMDocTranscodingInfo.h; path = SDK/NIMSDK/ExportHeaders/NIMDocTranscodingInfo.h; sourceTree = "<group>"; };
+		8473DABB0C8FD64BF7CD3A34078CA5B4 /* ElasticModalViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ElasticModalViewController.swift; path = ElasticTransition/ElasticModalViewController.swift; sourceTree = "<group>"; };
+		86E681144FED6B28B20C7EFCA92F335D /* DispatchQueue+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Hero.swift"; path = "Hero/DispatchQueue+Hero.swift"; sourceTree = "<group>"; };
+		8B7B0ABBA0DA47D1D65DADC249576697 /* NIMNotificationObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMNotificationObject.h; path = SDK/NIMSDK/ExportHeaders/MessageObject/NIMNotificationObject.h; sourceTree = "<group>"; };
+		8C3C33C18753BAE1A641DB659B10DA0B /* NIMMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMMessage.h; path = SDK/NIMSDK/ExportHeaders/NIMMessage.h; sourceTree = "<group>"; };
+		8F36CF04EE09D22CFEDC2E04E6E2F9A7 /* NIMSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMSession.h; path = SDK/NIMSDK/ExportHeaders/NIMSession.h; sourceTree = "<group>"; };
+		907EDAFE8BBA3EAC0B7DA7B9EC229523 /* Util.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Util.swift; path = ElasticTransition/Util.swift; sourceTree = "<group>"; };
+		9082D13D5ABE1F4C274ACCE63C76A4D4 /* HeroDebugPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDebugPlugin.swift; path = Hero/HeroDebugPlugin.swift; sourceTree = "<group>"; };
+		92BD4B77D338F1AB7D17B689FB91DB30 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		941CF5EF60FD2344B07B1ACB31FA7ACC /* MotionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionAnimator.swift; path = MotionAnimation/MotionAnimator.swift; sourceTree = "<group>"; };
+		94B422932DDCED88C6DBDFD2973F289D /* NIMRTSOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMRTSOption.h; path = SDK/NIMAVChat/ExportHeaders/NIMRTSOption.h; sourceTree = "<group>"; };
+		989353F7C012F1EA6982A8B002C8534C /* NIMCustomSystemNotificationSetting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMCustomSystemNotificationSetting.h; path = SDK/NIMSDK/ExportHeaders/NIMCustomSystemNotificationSetting.h; sourceTree = "<group>"; };
+		9A95008018731B2A9EF8AFCC6AC31407 /* libnio.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libnio.a; path = SDK/NIMAVChat/Libs/libnio.a; sourceTree = "<group>"; };
+		9AF268EDC7AF63588D65BAF6D08614BE /* NIMNetCallManagerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMNetCallManagerProtocol.h; path = SDK/NIMAVChat/ExportHeaders/NIMNetCallManagerProtocol.h; sourceTree = "<group>"; };
+		9DF074C4C338A975077F56E80B63D809 /* NIMSDKHeaders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMSDKHeaders.h; path = SDK/NIMSDK/ExportHeaders/NIMSDKHeaders.h; sourceTree = "<group>"; };
+		9E3BF1448800F76B641B44503A3A3CAE /* ElasticTransitionPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ElasticTransitionPresentationController.swift; path = ElasticTransition/ElasticTransitionPresentationController.swift; sourceTree = "<group>"; };
+		9E44DDD960120E98C941E9B0AF03FB39 /* NIMMessageChatroomExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMMessageChatroomExtension.h; path = SDK/NIMSDK/ExportHeaders/Chatroom/NIMMessageChatroomExtension.h; sourceTree = "<group>"; };
+		9F30301D14F91F99A55F164152CCF42A /* libssl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssl.a; path = SDK/NIMSDK/Libs/libssl.a; sourceTree = "<group>"; };
+		9FF74687E50FB8785805F9779B83B5AC /* Hero-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hero-prefix.pch"; sourceTree = "<group>"; };
+		A8C804601985673D059894F91458D6C7 /* NIMSystemNotificationManagerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMSystemNotificationManagerProtocol.h; path = SDK/NIMSDK/ExportHeaders/Protocol/NIMSystemNotificationManagerProtocol.h; sourceTree = "<group>"; };
+		ABD22A6F2B3EF95AF6D586C2D2BE0070 /* NIMLoginManagerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMLoginManagerProtocol.h; path = SDK/NIMSDK/ExportHeaders/Protocol/NIMLoginManagerProtocol.h; sourceTree = "<group>"; };
+		AD3F400B5FDD94943CB5148E6732C3C4 /* NIMTipObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMTipObject.h; path = SDK/NIMSDK/ExportHeaders/MessageObject/NIMTipObject.h; sourceTree = "<group>"; };
+		AEAA147A3633A773D2755A34B26765DC /* NIMChatManagerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMChatManagerProtocol.h; path = SDK/NIMSDK/ExportHeaders/Protocol/NIMChatManagerProtocol.h; sourceTree = "<group>"; };
+		B0C05784F87CE21D16467852CE415A9D /* HeroPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroPlugin.swift; path = Hero/HeroPlugin.swift; sourceTree = "<group>"; };
+		B0DA7F28DC70B98572A8371D76B55941 /* NIMMessageSetting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMMessageSetting.h; path = SDK/NIMSDK/ExportHeaders/NIMMessageSetting.h; sourceTree = "<group>"; };
+		B32399A8D44DBED056F34A76533E4645 /* MotionAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MotionAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5668D97C406453A06B287B40591388E /* NIMResourceManagerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMResourceManagerProtocol.h; path = SDK/NIMSDK/ExportHeaders/Protocol/NIMResourceManagerProtocol.h; sourceTree = "<group>"; };
+		B62D38D1052ED2EA56A4E2D0EEC5EA65 /* Pods-MeChat-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MeChat-frameworks.sh"; sourceTree = "<group>"; };
+		B7348BB3C40738282F865AEF7B6B21FF /* NIMAVChat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMAVChat.h; path = SDK/NIMAVChat/ExportHeaders/NIMAVChat.h; sourceTree = "<group>"; };
+		B93D9DDC658196A59FAE61E6CF384B4E /* ElasticTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ElasticTransition.modulemap; sourceTree = "<group>"; };
+		B9D5CA2F460C691E61C2C98C0CBA6316 /* Pods-MeChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MeChat.debug.xcconfig"; sourceTree = "<group>"; };
+		BC01D78F81EE3D71C5D03D79AE7E6EDE /* ViewToViewPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewToViewPreprocessor.swift; path = Hero/ViewToViewPreprocessor.swift; sourceTree = "<group>"; };
+		BCCF4B1D67D1890DE05D0E3F6F6A347E /* libcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrypto.a; path = SDK/NIMSDK/Libs/libcrypto.a; sourceTree = "<group>"; };
+		BD308B76493FA120AE0F7BA2A139974F /* NIMMediaManagerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMMediaManagerProtocol.h; path = SDK/NIMSDK/ExportHeaders/Protocol/NIMMediaManagerProtocol.h; sourceTree = "<group>"; };
+		BD88FD1084E232BF84B650ECE6F1E750 /* MotionAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MotionAnimation-dummy.m"; sourceTree = "<group>"; };
+		C45EF761B440EDBDD46930B1F1C616F2 /* NIMNetCallUserInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMNetCallUserInfo.h; path = SDK/NIMAVChat/ExportHeaders/NIMNetCallUserInfo.h; sourceTree = "<group>"; };
+		C69BCE7AF29156BB59028D9AC851DAC9 /* NIMTeamDefs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMTeamDefs.h; path = SDK/NIMSDK/ExportHeaders/Team/NIMTeamDefs.h; sourceTree = "<group>"; };
+		C6D4D24D1AB29AB211264CC49DF73C91 /* HeroContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroContext.swift; path = Hero/HeroContext.swift; sourceTree = "<group>"; };
+		CA6DB88CAF76CB825556AC559C08B29D /* NIMImageObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMImageObject.h; path = SDK/NIMSDK/ExportHeaders/MessageObject/NIMImageObject.h; sourceTree = "<group>"; };
+		CC0CE63E9BBF6CFC074BE9F5290253DD /* NIMChatroomMemberRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMChatroomMemberRequest.h; path = SDK/NIMSDK/ExportHeaders/Chatroom/NIMChatroomMemberRequest.h; sourceTree = "<group>"; };
+		CD02DFF8C6EC3E3EF952E501A0E4EA27 /* CascadePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CascadePreprocessor.swift; path = Hero/CascadePreprocessor.swift; sourceTree = "<group>"; };
+		CE844EC05EA350913140806E799BEB19 /* libaacplus.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libaacplus.a; path = SDK/NIMSDK/Libs/libaacplus.a; sourceTree = "<group>"; };
+		D40AD7F401F9ED8BFDFF3DA6FA8B0BE9 /* ElasticTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ElasticTransition.swift; path = ElasticTransition/ElasticTransition.swift; sourceTree = "<group>"; };
+		D48B591461FD2D8A3CFE3CE5C0465F53 /* MotionAnimation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MotionAnimation.xcconfig; sourceTree = "<group>"; };
+		D4F3E20375ACDF3D732561494803050F /* NIMMessageObjectProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMMessageObjectProtocol.h; path = SDK/NIMSDK/ExportHeaders/Protocol/NIMMessageObjectProtocol.h; sourceTree = "<group>"; };
+		D75B4FCD5B40A00C9279139BFA470B7E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7F1020FAFDDA6730BE2CE89D8411C27 /* HeroTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTypes.swift; path = Hero/HeroTypes.swift; sourceTree = "<group>"; };
+		D886A0AF0FA61493F673EE6650A0E233 /* libopus.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libopus.a; path = SDK/NIMAVChat/Libs/libopus.a; sourceTree = "<group>"; };
+		DD2C9A60BE7EEEAF66012F16E8DB56E9 /* NIMChatroomQueueRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMChatroomQueueRequest.h; path = SDK/NIMSDK/ExportHeaders/Chatroom/NIMChatroomQueueRequest.h; sourceTree = "<group>"; };
+		DD494FA241D515CD0041EA38215AE34B /* NIMTeamManagerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMTeamManagerProtocol.h; path = SDK/NIMSDK/ExportHeaders/Protocol/NIMTeamManagerProtocol.h; sourceTree = "<group>"; };
+		DDA049116E00932FD197F50A30959D96 /* Pods_MeChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MeChat.framework; path = "Pods-MeChat.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF6901124CF40A9F603F6348815AADD0 /* NIMGlobalDefs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMGlobalDefs.h; path = SDK/NIMSDK/ExportHeaders/NIMGlobalDefs.h; sourceTree = "<group>"; };
+		DFDB1D3048FC4AB91312BDBB4932AACB /* NIMUserManagerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMUserManagerProtocol.h; path = SDK/NIMSDK/ExportHeaders/Protocol/NIMUserManagerProtocol.h; sourceTree = "<group>"; };
+		E23C9C00B7B519ACE3111D87748B4772 /* NIMAVChatNetDetectManagerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMAVChatNetDetectManagerProtocol.h; path = SDK/NIMAVChat/ExportHeaders/NIMAVChatNetDetectManagerProtocol.h; sourceTree = "<group>"; };
+		E3AA91906C0C47DB80F71B442E6E711D /* NIMRTSRecordingInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMRTSRecordingInfo.h; path = SDK/NIMAVChat/ExportHeaders/NIMRTSRecordingInfo.h; sourceTree = "<group>"; };
+		E49DD5B32516991E4644692C5C0CA74E /* NIMCustomObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMCustomObject.h; path = SDK/NIMSDK/ExportHeaders/MessageObject/NIMCustomObject.h; sourceTree = "<group>"; };
+		E59A2A515CA08B384669E072DF55F0AC /* NIMFileObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMFileObject.h; path = SDK/NIMSDK/ExportHeaders/MessageObject/NIMFileObject.h; sourceTree = "<group>"; };
+		E776409ADC35EDA2D96AB1BEEFB59BE8 /* Pods-MeChat-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MeChat-acknowledgements.plist"; sourceTree = "<group>"; };
+		E80CCB62A25546A71BE31A3EDDD499A2 /* NIMRTSConferenceManagerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMRTSConferenceManagerProtocol.h; path = SDK/NIMAVChat/ExportHeaders/NIMRTSConferenceManagerProtocol.h; sourceTree = "<group>"; };
+		E997C87EE322A5E6ED6C489E6DDC71D7 /* CG+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CG+Hero.swift"; path = "Hero/CG+Hero.swift"; sourceTree = "<group>"; };
+		EA3C93449F5521F724260AFA5664FBA5 /* NIMChatroomEnterRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMChatroomEnterRequest.h; path = SDK/NIMSDK/ExportHeaders/Chatroom/NIMChatroomEnterRequest.h; sourceTree = "<group>"; };
+		EB141E565C83409BE0396B566AAB963F /* Pods-MeChat-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MeChat-resources.sh"; sourceTree = "<group>"; };
+		EE3BF0964360CBDB6F7D0C13CB3D99F2 /* libNIMSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libNIMSDK.a; path = SDK/NIMSDK/libNIMSDK.a; sourceTree = "<group>"; };
+		EF0F384A0E9ED395A8F6EC83DE53E171 /* NIMNetCallOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMNetCallOption.h; path = SDK/NIMAVChat/ExportHeaders/NIMNetCallOption.h; sourceTree = "<group>"; };
+		F3E440739579C070D36C99CA5B3023DD /* NIMChatroomManagerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMChatroomManagerProtocol.h; path = SDK/NIMSDK/ExportHeaders/Protocol/NIMChatroomManagerProtocol.h; sourceTree = "<group>"; };
+		F4F8D9DDAE720CEB84388068258F873D /* ElasticTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ElasticTransition.framework; path = ElasticTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52665ACEEBBD7B5B44D244FF5B935E4 /* Pods-MeChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MeChat.release.xcconfig"; sourceTree = "<group>"; };
+		F7FB186D00E43B1E91CBA47033004E9E /* NIMAudioObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMAudioObject.h; path = SDK/NIMSDK/ExportHeaders/MessageObject/NIMAudioObject.h; sourceTree = "<group>"; };
+		F86B54FBED467F4DB02F09A26FFB2711 /* NIMSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMSDK.h; path = SDK/NIMSDK/ExportHeaders/NIMSDK.h; sourceTree = "<group>"; };
+		F897FD674E818D34C129A1512F9062F4 /* NIMDocTranscodingManagerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMDocTranscodingManagerProtocol.h; path = SDK/NIMSDK/ExportHeaders/Protocol/NIMDocTranscodingManagerProtocol.h; sourceTree = "<group>"; };
+		F8B8474A878D65E21F38BBDEE80E7E2D /* NIMUnsupportedNotificationContent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMUnsupportedNotificationContent.h; path = SDK/NIMSDK/ExportHeaders/MessageObject/NotificationContent/NIMUnsupportedNotificationContent.h; sourceTree = "<group>"; };
+		F9EAE48A140919643259F13FF05B8341 /* Hero.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hero.xcconfig; sourceTree = "<group>"; };
+		FCCE48998FC0CCAA5CC0F87684483C88 /* NIMNetCallNotificationContent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMNetCallNotificationContent.h; path = SDK/NIMSDK/ExportHeaders/MessageObject/NotificationContent/NIMNetCallNotificationContent.h; sourceTree = "<group>"; };
+		FE45EC4FEF7879B68895C15D20DED4DF /* NIMRecentSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMRecentSession.h; path = SDK/NIMSDK/ExportHeaders/NIMRecentSession.h; sourceTree = "<group>"; };
+		FF613995691401A2C5436697259464A4 /* NIMVideoObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NIMVideoObject.h; path = SDK/NIMSDK/ExportHeaders/MessageObject/NIMVideoObject.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		310DF11A51EE85414EC15873AF37E3B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B511623060DBCD6B1C14F5D252143937 /* Foundation.framework in Frameworks */,
+				F5218E444980FAEAA6D342454D324646 /* MotionAnimation.framework in Frameworks */,
+				EDA026129165CD6BCE1312AA7FAF0BB7 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F6B072FB13FA8353DE845F5663CF719 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80F5231362400AA818604F8A1BDB58C /* Foundation.framework in Frameworks */,
+				609FC27A791C058F8CD308288D573E68 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D53CF6B5FCC5E414F5298D233B6D657 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BEFCE140F40EDFA980E3522E8751F2F /* Foundation.framework in Frameworks */,
+				FA237B271BC312EAF7B399AC7024B589 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0753C6395C4FC63FC3955BB1EF160C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79FF9DDC85C3B99CDE883D8B3870603 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C6127CC744AB3DD410D90443FDA0195 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				289FEAEC20F1013C920D714E987C2F09 /* Foundation.framework */,
+				92BD4B77D338F1AB7D17B689FB91DB30 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5C7487D8F4AB73C3CFE3720D88AA13F4 /* Pods-MeChat */ = {
+			isa = PBXGroup;
+			children = (
+				33A76D890CCE0E2472866D180218DD77 /* Info.plist */,
+				3EDE4246715672D8E3BAA53684377D68 /* Pods-MeChat.modulemap */,
+				4B74F11B732AC434AB4D8C593D26AA92 /* Pods-MeChat-acknowledgements.markdown */,
+				E776409ADC35EDA2D96AB1BEEFB59BE8 /* Pods-MeChat-acknowledgements.plist */,
+				0E48E054E765171D37C6C70083BC679F /* Pods-MeChat-dummy.m */,
+				B62D38D1052ED2EA56A4E2D0EEC5EA65 /* Pods-MeChat-frameworks.sh */,
+				EB141E565C83409BE0396B566AAB963F /* Pods-MeChat-resources.sh */,
+				4B4B5304DA33B196836435AFC535C4E6 /* Pods-MeChat-umbrella.h */,
+				B9D5CA2F460C691E61C2C98C0CBA6316 /* Pods-MeChat.debug.xcconfig */,
+				F52665ACEEBBD7B5B44D244FF5B935E4 /* Pods-MeChat.release.xcconfig */,
+			);
+			name = "Pods-MeChat";
+			path = "Target Support Files/Pods-MeChat";
+			sourceTree = "<group>";
+		};
+		624AD558A20D94C22DBA65FF436F8D47 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ECC57934A5F9110919B88EC5A8B1053E /* ElasticTransition */,
+				CE5168A21E43836645D3E879955294C8 /* Hero */,
+				71B8BFA03067C2D62BEBB5553474EDB9 /* MotionAnimation */,
+				7F8199E77A8A9B7F29E500FA4DD7A75A /* NIMSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		71B8BFA03067C2D62BEBB5553474EDB9 /* MotionAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				4C72AA25441CBF5B608C8D1ADB2D8324 /* MotionAnimation.swift */,
+				539DBCA7BF298954D18DBB6776B8D97F /* MotionAnimationPropertyState.swift */,
+				941CF5EF60FD2344B07B1ACB31FA7ACC /* MotionAnimator.swift */,
+				4CAE82936A2CC1560ACBFFCE8C808A97 /* NSObject+MotionAnimation.swift */,
+				71659ED316D686E17D76F40DD517B7CF /* SpringValueAnimation.swift */,
+				131FCA1074156373F10A065BA95524EB /* Types.swift */,
+				5AC81CAE65ADC330097ABE6F8388328E /* ValueAnimation.swift */,
+				F4F61BF28630A812DC0894C15D6B17BA /* Support Files */,
+			);
+			name = MotionAnimation;
+			path = MotionAnimation;
+			sourceTree = "<group>";
+		};
+		7BDC11968746FBB0203B4BB6346D6AD2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B93D9DDC658196A59FAE61E6CF384B4E /* ElasticTransition.modulemap */,
+				7C30CA68636AC3E31704837BE0F0EAE9 /* ElasticTransition.xcconfig */,
+				658F59F8CE52C5C32197475CD027DEC1 /* ElasticTransition-dummy.m */,
+				66604B2734F0CB2D191DCCADAE2A6CDA /* ElasticTransition-prefix.pch */,
+				4E32E3B41DA3161CE0FD2EA767F60CEC /* ElasticTransition-umbrella.h */,
+				5108CCC379AC3AC620C6BDA9FE7A5D4B /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ElasticTransition";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				CB7AE1D83928E889E062A217743ABE6E /* Frameworks */,
+				624AD558A20D94C22DBA65FF436F8D47 /* Pods */,
+				A85C2BCF74319EFF592EC2D83501E10C /* Products */,
+				95F081D9F6F3A112A30889F0D59E6374 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F8199E77A8A9B7F29E500FA4DD7A75A /* NIMSDK */ = {
+			isa = PBXGroup;
+			children = (
+				240B4EB9B4EF6C658557EAA822831BB2 /* NIMAntiSpamOption.h */,
+				3FDE5E39643B46816FF224428275AFD8 /* NIMApnsManagerProtocol.h */,
+				F7FB186D00E43B1E91CBA47033004E9E /* NIMAudioObject.h */,
+				B7348BB3C40738282F865AEF7B6B21FF /* NIMAVChat.h */,
+				44131C7BDB5C326A4206818562BB72F8 /* NIMAVChatDefs.h */,
+				E23C9C00B7B519ACE3111D87748B4772 /* NIMAVChatNetDetectManagerProtocol.h */,
+				1CD4A9CC7F0F484837FB1B4BCD9847CB /* NIMAVChatNetDetectResult.h */,
+				AEAA147A3633A773D2755A34B26765DC /* NIMChatManagerProtocol.h */,
+				6932E5805AE57D4F69DAFEE1155FF32A /* NIMChatroom.h */,
+				EA3C93449F5521F724260AFA5664FBA5 /* NIMChatroomEnterRequest.h */,
+				F3E440739579C070D36C99CA5B3023DD /* NIMChatroomManagerProtocol.h */,
+				6209015C2258638E262415FA044DEC47 /* NIMChatroomMember.h */,
+				CC0CE63E9BBF6CFC074BE9F5290253DD /* NIMChatroomMemberRequest.h */,
+				0C71125B45E9205B8F795CD97887BB3D /* NIMChatroomNotificationContent.h */,
+				DD2C9A60BE7EEEAF66012F16E8DB56E9 /* NIMChatroomQueueRequest.h */,
+				1321F272318696EFEB16B67051ADDFF0 /* NIMChatroomUpdateRequest.h */,
+				158EF7938137378289E1EA4EAE774F63 /* NIMConversationManagerProtocol.h */,
+				38949D899F8E6E82C137C2A764B82B4A /* NIMCreateTeamOption.h */,
+				E49DD5B32516991E4644692C5C0CA74E /* NIMCustomObject.h */,
+				989353F7C012F1EA6982A8B002C8534C /* NIMCustomSystemNotificationSetting.h */,
+				83F7459E5A1B87D3C78E88783FCC87CE /* NIMDocTranscodingInfo.h */,
+				F897FD674E818D34C129A1512F9062F4 /* NIMDocTranscodingManagerProtocol.h */,
+				E59A2A515CA08B384669E072DF55F0AC /* NIMFileObject.h */,
+				DF6901124CF40A9F603F6348815AADD0 /* NIMGlobalDefs.h */,
+				CA6DB88CAF76CB825556AC559C08B29D /* NIMImageObject.h */,
+				48CDE8C82111A8061455C9788E955B6D /* NIMLocationObject.h */,
+				69ACB70CDB0F43E60F5A67185E22D978 /* NIMLoginClient.h */,
+				ABD22A6F2B3EF95AF6D586C2D2BE0070 /* NIMLoginManagerProtocol.h */,
+				BD308B76493FA120AE0F7BA2A139974F /* NIMMediaManagerProtocol.h */,
+				8C3C33C18753BAE1A641DB659B10DA0B /* NIMMessage.h */,
+				51511BF52A7D4B5E92C53953C291C9C1 /* NIMMessageApnsMemberOption.h */,
+				9E44DDD960120E98C941E9B0AF03FB39 /* NIMMessageChatroomExtension.h */,
+				D4F3E20375ACDF3D732561494803050F /* NIMMessageObjectProtocol.h */,
+				7EBCBFCDAA422334EAD17784B1AB0CE6 /* NIMMessageReceipt.h */,
+				56634F77908DA10EE352336B0C45735B /* NIMMessageSearchOption.h */,
+				B0DA7F28DC70B98572A8371D76B55941 /* NIMMessageSetting.h */,
+				6C0AE7752BC55AC72CEAD3573A8D5820 /* NIMNetCallAudioFileMixTask.h */,
+				9AF268EDC7AF63588D65BAF6D08614BE /* NIMNetCallManagerProtocol.h */,
+				680ECBD1644CFFC4AA525A0C13D99ECC /* NIMNetCallMeeting.h */,
+				FCCE48998FC0CCAA5CC0F87684483C88 /* NIMNetCallNotificationContent.h */,
+				EF0F384A0E9ED395A8F6EC83DE53E171 /* NIMNetCallOption.h */,
+				831225E6D27F0B034645AC6533DE2C91 /* NIMNetCallRecordingInfo.h */,
+				C45EF761B440EDBDD46930B1F1C616F2 /* NIMNetCallUserInfo.h */,
+				3FABAC56A9DB3F852492BEC329C2AF47 /* NIMNotificationContent.h */,
+				8B7B0ABBA0DA47D1D65DADC249576697 /* NIMNotificationObject.h */,
+				38107F4AF3C5B6CDE66125C15AF087D3 /* NIMPushNotificationSetting.h */,
+				FE45EC4FEF7879B68895C15D20DED4DF /* NIMRecentSession.h */,
+				B5668D97C406453A06B287B40591388E /* NIMResourceManagerProtocol.h */,
+				12B9BCDE640591D31AFA9274984436AA /* NIMRevokeMessageNotification.h */,
+				0EC719BE79472BF18BCCAA82725971E0 /* NIMRTSConference.h */,
+				27D626B14275CDCC354380044782CA75 /* NIMRTSConferenceData.h */,
+				E80CCB62A25546A71BE31A3EDDD499A2 /* NIMRTSConferenceManagerProtocol.h */,
+				76095695B30FB44C6D0EF7CBBA5A280E /* NIMRTSManagerProtocol.h */,
+				94B422932DDCED88C6DBDFD2973F289D /* NIMRTSOption.h */,
+				E3AA91906C0C47DB80F71B442E6E711D /* NIMRTSRecordingInfo.h */,
+				F86B54FBED467F4DB02F09A26FFB2711 /* NIMSDK.h */,
+				6E025218FF4F8CC4F67DB6B8C977F289 /* NIMSDKConfig.h */,
+				9DF074C4C338A975077F56E80B63D809 /* NIMSDKHeaders.h */,
+				8F36CF04EE09D22CFEDC2E04E6E2F9A7 /* NIMSession.h */,
+				4B675E55E5D4443729A210183CFEAD44 /* NIMSystemNotification.h */,
+				A8C804601985673D059894F91458D6C7 /* NIMSystemNotificationManagerProtocol.h */,
+				09CBCD803C6471C8BA7A6AD47D6B3C71 /* NIMTeam.h */,
+				C69BCE7AF29156BB59028D9AC851DAC9 /* NIMTeamDefs.h */,
+				DD494FA241D515CD0041EA38215AE34B /* NIMTeamManagerProtocol.h */,
+				4E2F45F9C8CDDABAF010BE0C20551145 /* NIMTeamMember.h */,
+				6895ACADCD7CCB0700EC0B4A800734F5 /* NIMTeamNotificationContent.h */,
+				AD3F400B5FDD94943CB5148E6732C3C4 /* NIMTipObject.h */,
+				F8B8474A878D65E21F38BBDEE80E7E2D /* NIMUnsupportedNotificationContent.h */,
+				697B0B9D1BBDE3AA47012315D340AF0E /* NIMUser.h */,
+				DFDB1D3048FC4AB91312BDBB4932AACB /* NIMUserManagerProtocol.h */,
+				FF613995691401A2C5436697259464A4 /* NIMVideoObject.h */,
+				C19FBC010B68B63AA3CF42DEF3953F7F /* Frameworks */,
+			);
+			name = NIMSDK;
+			path = NIMSDK;
+			sourceTree = "<group>";
+		};
+		95F081D9F6F3A112A30889F0D59E6374 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C7487D8F4AB73C3CFE3720D88AA13F4 /* Pods-MeChat */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A85C2BCF74319EFF592EC2D83501E10C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4F8D9DDAE720CEB84388068258F873D /* ElasticTransition.framework */,
+				3073E6F66BC358227ACBAEC6ED33496C /* Hero.framework */,
+				55655AB28AAA590ECAAEBB467450FF23 /* MotionAnimation.framework */,
+				DDA049116E00932FD197F50A30959D96 /* Pods_MeChat.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C19FBC010B68B63AA3CF42DEF3953F7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE844EC05EA350913140806E799BEB19 /* libaacplus.a */,
+				BCCF4B1D67D1890DE05D0E3F6F6A347E /* libcrypto.a */,
+				60382D6C8E6D4391574F86569B64CDAF /* libevent.a */,
+				19B2A452324DDF8BF4B61139CB5FE924 /* libNIMAVChat.a */,
+				EE3BF0964360CBDB6F7D0C13CB3D99F2 /* libNIMSDK.a */,
+				9A95008018731B2A9EF8AFCC6AC31407 /* libnio.a */,
+				5A538017B6C374810921D7BDFACDF09C /* libnts.a */,
+				3831F55CE800D284EC4F2AF5CC654A57 /* libnvs.a */,
+				2F93A5680B3CA9FA1714D9038FED5BAD /* libopenh264.a */,
+				D886A0AF0FA61493F673EE6650A0E233 /* libopus.a */,
+				9F30301D14F91F99A55F164152CCF42A /* libssl.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB7AE1D83928E889E062A217743ABE6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B32399A8D44DBED056F34A76533E4645 /* MotionAnimation.framework */,
+				1C6127CC744AB3DD410D90443FDA0195 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE5168A21E43836645D3E879955294C8 /* Hero */ = {
+			isa = PBXGroup;
+			children = (
+				417374852D75806435C981AFB7AF3C44 /* CAMediaTimingFunction+Hero.swift */,
+				CD02DFF8C6EC3E3EF952E501A0E4EA27 /* CascadePreprocessor.swift */,
+				E997C87EE322A5E6ED6C489E6DDC71D7 /* CG+Hero.swift */,
+				26E6F850F8EC307D56E6C0E522DF123A /* ClearPreprocessor.swift */,
+				86E681144FED6B28B20C7EFCA92F335D /* DispatchQueue+Hero.swift */,
+				4692BB0A2F2236E6AEB1C54DF65A98B6 /* Hero.swift */,
+				C6D4D24D1AB29AB211264CC49DF73C91 /* HeroContext.swift */,
+				9082D13D5ABE1F4C274ACCE63C76A4D4 /* HeroDebugPlugin.swift */,
+				15CB0B2B04515CAAEEC5142B3F42AFDE /* HeroDebugView.swift */,
+				41648D501393C85A7F2CC29CD4556352 /* HeroDefaultAnimator.swift */,
+				B0C05784F87CE21D16467852CE415A9D /* HeroPlugin.swift */,
+				D7F1020FAFDDA6730BE2CE89D8411C27 /* HeroTypes.swift */,
+				2BF948BBFF27BF1A8AAB2ADD418FAC72 /* SourceIDPreprocessor.swift */,
+				049952443031AF1757286D4CC332DCB4 /* TrackSubviewPreprocessor.swift */,
+				16A60A5D681F9D9A4E9352F9DAE933D4 /* UIKit+Hero.swift */,
+				828F235F14D76DA6A3BD7179A8A782EB /* UIKit+HeroModifier.swift */,
+				BC01D78F81EE3D71C5D03D79AE7E6EDE /* ViewToViewPreprocessor.swift */,
+				E8348B978FD533F338E74651216073A0 /* Support Files */,
+			);
+			name = Hero;
+			path = Hero;
+			sourceTree = "<group>";
+		};
+		E8348B978FD533F338E74651216073A0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				56A7AD7E941EAEE2E2953066BF866E03 /* Hero.modulemap */,
+				F9EAE48A140919643259F13FF05B8341 /* Hero.xcconfig */,
+				7816D1A47196EB429E7C30E924807299 /* Hero-dummy.m */,
+				9FF74687E50FB8785805F9779B83B5AC /* Hero-prefix.pch */,
+				81821546FAC4822A5632D55ABF6E2043 /* Hero-umbrella.h */,
+				191392CA0C221248E6C914266FD65338 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Hero";
+			sourceTree = "<group>";
+		};
+		ECC57934A5F9110919B88EC5A8B1053E /* ElasticTransition */ = {
+			isa = PBXGroup;
+			children = (
+				6E55041B57C1467E47E75C75F4260236 /* EdgePanTransition.swift */,
+				8473DABB0C8FD64BF7CD3A34078CA5B4 /* ElasticModalViewController.swift */,
+				6920BBDE2B15CEB73D3E4A47EC7589FB /* ElasticShapeLayer.swift */,
+				D40AD7F401F9ED8BFDFF3DA6FA8B0BE9 /* ElasticTransition.swift */,
+				9E3BF1448800F76B641B44503A3A3CAE /* ElasticTransitionPresentationController.swift */,
+				907EDAFE8BBA3EAC0B7DA7B9EC229523 /* Util.swift */,
+				7BDC11968746FBB0203B4BB6346D6AD2 /* Support Files */,
+			);
+			name = ElasticTransition;
+			path = ElasticTransition;
+			sourceTree = "<group>";
+		};
+		F4F61BF28630A812DC0894C15D6B17BA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D75B4FCD5B40A00C9279139BFA470B7E /* Info.plist */,
+				11605803D6FC17ABBB07D6710927FDE0 /* MotionAnimation.modulemap */,
+				D48B591461FD2D8A3CFE3CE5C0465F53 /* MotionAnimation.xcconfig */,
+				BD88FD1084E232BF84B650ECE6F1E750 /* MotionAnimation-dummy.m */,
+				32F6EF98586B09FE7F0208E72D4A18E0 /* MotionAnimation-prefix.pch */,
+				0E7BF809DAE7123CA308504073E4AED1 /* MotionAnimation-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MotionAnimation";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0E7D7BF3ED9CF8ACACF2D4738DE41D98 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11FA32BAD527295B3ECA9BEAED205663 /* ElasticTransition-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20CD9D120A002457DBC32E82216D5BBA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E13B675F8043A01BAA2C146E604A9866 /* Hero-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B0BEE6F02CB4E44D8AC415D22C96516 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2DFB2AC797F70E036096BD817BF85A /* Pods-MeChat-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C05E0056E2BCB751C6DCAB98F589643E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F033ADF6B1BF55DDD7E529505A8C44C8 /* MotionAnimation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		01F84989621124771A55075B6D1D0C8B /* Pods-MeChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D36271C4161637AFD834B452EF332A0B /* Build configuration list for PBXNativeTarget "Pods-MeChat" */;
+			buildPhases = (
+				8487808EB8A78A63332D093E66A56AA6 /* Sources */,
+				A0753C6395C4FC63FC3955BB1EF160C4 /* Frameworks */,
+				6B0BEE6F02CB4E44D8AC415D22C96516 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AC039E45729577025F5D4ED030EFB80 /* PBXTargetDependency */,
+				B89473D39D3ABF6FAD7FDC60F75E3AAF /* PBXTargetDependency */,
+				681D8A86F007DA7BBF5DA84B5E0AF7D0 /* PBXTargetDependency */,
+			);
+			name = "Pods-MeChat";
+			productName = "Pods-MeChat";
+			productReference = DDA049116E00932FD197F50A30959D96 /* Pods_MeChat.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		349C7332321D4913AA51D6D1AD4E81EA /* MotionAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC6A5A5BA052C3F49C69A00BDCA56A3F /* Build configuration list for PBXNativeTarget "MotionAnimation" */;
+			buildPhases = (
+				BC42CE0B4F9A5224C800C197600066F2 /* Sources */,
+				5F6B072FB13FA8353DE845F5663CF719 /* Frameworks */,
+				C05E0056E2BCB751C6DCAB98F589643E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MotionAnimation;
+			productName = MotionAnimation;
+			productReference = 55655AB28AAA590ECAAEBB467450FF23 /* MotionAnimation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B7252E38DA845CCD622CF025C2DBF326 /* Hero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AADE05D393386264D12FC122459568B3 /* Build configuration list for PBXNativeTarget "Hero" */;
+			buildPhases = (
+				F2FA013E2B33859A8A4044F2508CFCBB /* Sources */,
+				7D53CF6B5FCC5E414F5298D233B6D657 /* Frameworks */,
+				20CD9D120A002457DBC32E82216D5BBA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hero;
+			productName = Hero;
+			productReference = 3073E6F66BC358227ACBAEC6ED33496C /* Hero.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ED347253791613F820AB764013457A24 /* ElasticTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 782416781F694D93A0854C3767E1876D /* Build configuration list for PBXNativeTarget "ElasticTransition" */;
+			buildPhases = (
+				5E1156CDBB9F6567D58FCE77C8D490E8 /* Sources */,
+				310DF11A51EE85414EC15873AF37E3B3 /* Frameworks */,
+				0E7D7BF3ED9CF8ACACF2D4738DE41D98 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03E57E279BA2C9FE3D95D3B90AB66DBF /* PBXTargetDependency */,
+			);
+			name = ElasticTransition;
+			productName = ElasticTransition;
+			productReference = F4F8D9DDAE720CEB84388068258F873D /* ElasticTransition.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A85C2BCF74319EFF592EC2D83501E10C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED347253791613F820AB764013457A24 /* ElasticTransition */,
+				B7252E38DA845CCD622CF025C2DBF326 /* Hero */,
+				349C7332321D4913AA51D6D1AD4E81EA /* MotionAnimation */,
+				01F84989621124771A55075B6D1D0C8B /* Pods-MeChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E1156CDBB9F6567D58FCE77C8D490E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8835AEC429B2708D3E9A954E015FF4 /* EdgePanTransition.swift in Sources */,
+				A934E546F60C36EA0AE880CCA9B5716C /* ElasticModalViewController.swift in Sources */,
+				6C8683CA2793A7BBF60DE15AE71C26A6 /* ElasticShapeLayer.swift in Sources */,
+				AB63585C7DA68FF76D9E43557A80799C /* ElasticTransition-dummy.m in Sources */,
+				DB89E3B575B99E86F2806BC6B905233A /* ElasticTransition.swift in Sources */,
+				2AE053B117E2F7EE1CA1EBF31C2AD4D0 /* ElasticTransitionPresentationController.swift in Sources */,
+				3104F922E2AEA786002E8702F69EE3CC /* Util.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8487808EB8A78A63332D093E66A56AA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CF58786C1EBE018AB6471F206E268D7 /* Pods-MeChat-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC42CE0B4F9A5224C800C197600066F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F0FC6AE7D69ACE944D27DE1D8889B45 /* MotionAnimation-dummy.m in Sources */,
+				62CCA458C69D8ABEAFAAAB2C94553297 /* MotionAnimation.swift in Sources */,
+				DFC2593A02F3D7A4828F9EF441F0E042 /* MotionAnimationPropertyState.swift in Sources */,
+				8CE97726B9EE2795CD5499A307C45D4F /* MotionAnimator.swift in Sources */,
+				59DC13756163BE917B467F0575DF1AEF /* NSObject+MotionAnimation.swift in Sources */,
+				A78BF079B3B0A2777DC93E64522C9DE0 /* SpringValueAnimation.swift in Sources */,
+				E9E08E1A04267DD608FFA72610369C07 /* Types.swift in Sources */,
+				64C375CBD1009889ACB563839209F15E /* ValueAnimation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2FA013E2B33859A8A4044F2508CFCBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A43FF1B9F3FB0F92492A9BEF7D9DF95 /* CAMediaTimingFunction+Hero.swift in Sources */,
+				1ED965D105C9D5311BE6221B9EEDD724 /* CascadePreprocessor.swift in Sources */,
+				FACEC31B2B047593B87EFA3C608880B5 /* CG+Hero.swift in Sources */,
+				50313A5D2C8EA12E0BB5FD78E3081770 /* ClearPreprocessor.swift in Sources */,
+				1D90392F0CEAA5A7645962C5203ED0FF /* DispatchQueue+Hero.swift in Sources */,
+				0F76B5E4CA3399C41E9C74ED3D95AA0C /* Hero-dummy.m in Sources */,
+				58EB3314115C164F77FD219A25C69889 /* Hero.swift in Sources */,
+				2BA45B36223B0144ED43AE3E93E02516 /* HeroContext.swift in Sources */,
+				02D5DBBBE9F6DB761CEF4CF6E7BF5854 /* HeroDebugPlugin.swift in Sources */,
+				2B973B230C4DDB3D980EA1BFBDD1F9CA /* HeroDebugView.swift in Sources */,
+				4FB9C59A3B8E8E44597D32E2E3F5907C /* HeroDefaultAnimator.swift in Sources */,
+				E5106DA074C2E5F808B208EDEF77F901 /* HeroPlugin.swift in Sources */,
+				4E7025EF5A4EAAFDC64E8627AE0C668A /* HeroTypes.swift in Sources */,
+				D65B3B3571A6E546C3AA272FB0A994B8 /* SourceIDPreprocessor.swift in Sources */,
+				A513C7415A9FA5411AEADDE4D8C2120B /* TrackSubviewPreprocessor.swift in Sources */,
+				E99F5C75FC20F14262106DE242CFA957 /* UIKit+Hero.swift in Sources */,
+				440DE97A18C6DDCB2ACCF4FC47DDC758 /* UIKit+HeroModifier.swift in Sources */,
+				9F44930AC64103BA578ECE195AEC93ED /* ViewToViewPreprocessor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03E57E279BA2C9FE3D95D3B90AB66DBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MotionAnimation;
+			target = 349C7332321D4913AA51D6D1AD4E81EA /* MotionAnimation */;
+			targetProxy = 3448A019BE34ED3B2B313A1897E49392 /* PBXContainerItemProxy */;
+		};
+		681D8A86F007DA7BBF5DA84B5E0AF7D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MotionAnimation;
+			target = 349C7332321D4913AA51D6D1AD4E81EA /* MotionAnimation */;
+			targetProxy = C1A15CA49C240FBB883E7D94F5880C19 /* PBXContainerItemProxy */;
+		};
+		6AC039E45729577025F5D4ED030EFB80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ElasticTransition;
+			target = ED347253791613F820AB764013457A24 /* ElasticTransition */;
+			targetProxy = AA0A76D5DA6DE51D4049C2687A2155D2 /* PBXContainerItemProxy */;
+		};
+		B89473D39D3ABF6FAD7FDC60F75E3AAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Hero;
+			target = B7252E38DA845CCD622CF025C2DBF326 /* Hero */;
+			targetProxy = 1C5792348DC7DAD78ED93553B72E7C69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0375F7A94A2A868DB81A0D4DF1FA170A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9EAE48A140919643259F13FF05B8341 /* Hero.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Hero/Hero-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Hero/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Hero/Hero.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Hero;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		17940050CDE8171A65E6A983739D05D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D48B591461FD2D8A3CFE3CE5C0465F53 /* MotionAnimation.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MotionAnimation/MotionAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MotionAnimation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MotionAnimation/MotionAnimation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MotionAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2ADB28749B83676FDA1FFF0DC78E8216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9D5CA2F460C691E61C2C98C0CBA6316 /* Pods-MeChat.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MeChat/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MeChat/Pods-MeChat.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MeChat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		344C54AEBFCCA4582632C55B0B0F7D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9EAE48A140919643259F13FF05B8341 /* Hero.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Hero/Hero-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Hero/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Hero/Hero.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Hero;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4349B86DB13A9E58D8B9247CC6434527 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F52665ACEEBBD7B5B44D244FF5B935E4 /* Pods-MeChat.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MeChat/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MeChat/Pods-MeChat.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MeChat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C41EF19DC425D54405B49E9FC6B72EC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D48B591461FD2D8A3CFE3CE5C0465F53 /* MotionAnimation.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MotionAnimation/MotionAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MotionAnimation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MotionAnimation/MotionAnimation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MotionAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DAD488ADBD4B6E96DAEE37EE3BF5B64F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C30CA68636AC3E31704837BE0F0EAE9 /* ElasticTransition.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ElasticTransition/ElasticTransition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ElasticTransition/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ElasticTransition/ElasticTransition.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ElasticTransition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E3133D5D6B2D92883DB68EDDA8D05839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C30CA68636AC3E31704837BE0F0EAE9 /* ElasticTransition.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ElasticTransition/ElasticTransition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ElasticTransition/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ElasticTransition/ElasticTransition.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ElasticTransition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		782416781F694D93A0854C3767E1876D /* Build configuration list for PBXNativeTarget "ElasticTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD488ADBD4B6E96DAEE37EE3BF5B64F /* Debug */,
+				E3133D5D6B2D92883DB68EDDA8D05839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AADE05D393386264D12FC122459568B3 /* Build configuration list for PBXNativeTarget "Hero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				344C54AEBFCCA4582632C55B0B0F7D09 /* Debug */,
+				0375F7A94A2A868DB81A0D4DF1FA170A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D36271C4161637AFD834B452EF332A0B /* Build configuration list for PBXNativeTarget "Pods-MeChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ADB28749B83676FDA1FFF0DC78E8216 /* Debug */,
+				4349B86DB13A9E58D8B9247CC6434527 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC6A5A5BA052C3F49C69A00BDCA56A3F /* Build configuration list for PBXNativeTarget "MotionAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17940050CDE8171A65E6A983739D05D8 /* Debug */,
+				C41EF19DC425D54405B49E9FC6B72EC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

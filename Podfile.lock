@@ -1,0 +1,21 @@
+PODS:
+  - ElasticTransition (3.1.1):
+    - MotionAnimation (~> 0.1.2)
+  - Hero (0.0.2)
+  - MotionAnimation (0.1.2)
+  - NIMSDK (3.3.0)
+
+DEPENDENCIES:
+  - ElasticTransition
+  - Hero
+  - NIMSDK
+
+SPEC CHECKSUMS:
+  ElasticTransition: 6c4e4739e32480c864217db912100f3657f6447a
+  Hero: 75fac8b0009d0b874505dfa8ef3c66e51e2e766d
+  MotionAnimation: ff5c8fc2e429d7e10d46ae86819ba9759846c343
+  NIMSDK: e8bbffed00573f15da73a7ba7748c1da8dc2aa50
+
+PODFILE CHECKSUM: 9bc9ad162403215ef1bb384bdb6d3859026c97d3
+
+COCOAPODS: 1.2.0
