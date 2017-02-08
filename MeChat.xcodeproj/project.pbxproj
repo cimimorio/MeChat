@@ -17,6 +17,8 @@
 		E121A3AF1E4A1D0F001901B0 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = E121A3AE1E4A1D0F001901B0 /* Tools.m */; };
 		E121A3B21E4A1D27001901B0 /* CusView.m in Sources */ = {isa = PBXBuildFile; fileRef = E121A3B11E4A1D27001901B0 /* CusView.m */; };
 		E121A3B51E4A1D66001901B0 /* 20150204_124543000_iOS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E121A3B41E4A1D66001901B0 /* 20150204_124543000_iOS.jpg */; };
+		E12756FB1E4B6A25004196CE /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12756FA1E4B6A25004196CE /* FriendsViewController.swift */; };
+		E12756FD1E4B6A2E004196CE /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12756FC1E4B6A2E004196CE /* ChatViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		E121A3B01E4A1D27001901B0 /* CusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CusView.h; sourceTree = "<group>"; };
 		E121A3B11E4A1D27001901B0 /* CusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CusView.m; sourceTree = "<group>"; };
 		E121A3B41E4A1D66001901B0 /* 20150204_124543000_iOS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20150204_124543000_iOS.jpg; sourceTree = "<group>"; };
+		E12756FA1E4B6A25004196CE /* FriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		E12756FC1E4B6A2E004196CE /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		F47E34A4E4F8D6116DB46E35 /* Pods_MeChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -109,6 +113,8 @@
 			isa = PBXGroup;
 			children = (
 				E121A3A81E4A1CC8001901B0 /* ViewController.swift */,
+				E12756FA1E4B6A25004196CE /* FriendsViewController.swift */,
+				E12756FC1E4B6A2E004196CE /* ChatViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -276,7 +282,9 @@
 				E121A3B21E4A1D27001901B0 /* CusView.m in Sources */,
 				E121A3A91E4A1CC8001901B0 /* ViewController.swift in Sources */,
 				E121A3A71E4A1C93001901B0 /* IMChatManager.m in Sources */,
+				E12756FD1E4B6A2E004196CE /* ChatViewController.swift in Sources */,
 				E121A38C1E4A006B001901B0 /* AppDelegate.swift in Sources */,
+				E12756FB1E4B6A25004196CE /* FriendsViewController.swift in Sources */,
 				E121A3AF1E4A1D0F001901B0 /* Tools.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
