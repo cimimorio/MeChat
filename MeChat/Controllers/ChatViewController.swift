@@ -22,6 +22,11 @@ class ChatViewController: UIViewController {
     }
     
 
+    @IBAction func sendMsgBtnClicked(_ sender: Any) {
+        
+        IMChatManager.share().sendTextMassage("Hello", toUser: "xxoo")
+        
+    }
     /*
     // MARK: - Navigation
 
